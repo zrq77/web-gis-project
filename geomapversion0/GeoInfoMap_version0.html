@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>GeoInfo Map-17089122G</title>
+<script src="http://maps.googleapis.com/maps/api/js?sensor=true&libraries=drawing"></script>
+<link rel="stylesheet" href="./css/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Add javascript -->
+<script src="./js/mapfunction.js"></script>
+<script src="./js/btnfunction.js"></script>
+<script>
+
+</script>
+</head>
+
+<body style="background-color:rgb(240,255,231)">
+
+<!-- layout -->
+<div id="tophead" >
+	<center><div id="logo">
+	<img src="./images/logo.png" alt="Logo">&nbsp &nbsp GeoInfo Map
+	</div></center>
+</div>
+<!-- map and leftbox -->
+<div id="mainblock" >
+	<div style="width:100%; height:30px; background-color:#4CAF50;">
+		<button id="btn1" class="button">Measure Tool</button>
+		<button id="btn2" class="button">Drawing Tool</button>
+		<button id="btn3" class="button">Category</button>
+		<input style="width:20%"></input><button id="search" class="button"><i class="fa fa-envira"></i> Search</button>
+		<span id="attribution">Create by Ruiqi ZHU &nbsp &nbsp &nbsp Powered by The Hong Kong Polytechnic University</span>
+	</div>
+	<!-- leftbox -->
+	<div id="leftbox">
+		<center><div id="measuretool" style="display:none">
+			<button id="point" class="button button1"><i class="fa fa-crosshairs"></i> Point</button>
+			<button id="line" class="button button1"><i class="fa fa-google-wallet"></i> Line</button>
+			<button id="area" class="button button1"><i class="fa fa-map"></i> Area</button>
+		</div></center>
+		<div id="category" style="display:none">
+			<input type="checkbox" id="schoolcheck">
+				<img id="schoolinfo" src="./icons/zz-school.png"><span>Top Schools in HK<br></span>
+			<input type="checkbox" id="shoppingcheck">
+				<img id="shoppinginfo" src="./icons/zz-shopping.png"><span>Popular Shopping malls in HK<br></span>
+			<p align="right" style="margin-right:10px;"><button id="Go" class="button button1" >Go</button></p>
+		</div>
+		<div id="info" ></div>
+		<center><div id="timer"></div></center>
+	</div>
+	<!-- map -->
+	<div  id="map"></div>
+</div>
+<div id="legend" style="display:none"><h3>Legend</h3></div>
+<footer align="right">
+<a id="alink" href="http://www2.map.gov.hk/gih3/view/index.jsp">reference link</a>&nbsp &nbsp &nbsp &nbsp Name:ZHU Ruiqi &nbsp &nbsp &nbsp &nbsp Contact:67654565; &nbsp &nbsp &nbsp &nbsp E-mail:17089122g@connect.polyu.hk
+</footer>
+
+
+</body>
+</html>

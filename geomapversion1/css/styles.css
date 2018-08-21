@@ -1,0 +1,112 @@
+#tophead {
+	height:10px;
+	background:#4CAF50; /* For browsers that do not support gradients */
+	background:linear-gradient(to top, #4CAF50, rgb(240,255,231)); /* Standard syntax (must be last) */
+}
+
+#mainblock {
+	height:600px;
+	background:none;
+}
+#attribution{
+	color:white; font-size:11px; float:right; margin-top:13px;
+}
+#leftbox {
+	width:15%;
+	height:910px;
+	background:rgb(243,244,245);
+	float:left;
+}
+#map {
+	width:85%;
+	height:910px;
+	background:rgb(240,255,231);
+	float:right
+}
+
+#logo {
+	margin-top:15px; 
+	margin-bottom:25px;
+	border-bottom-style:dotted;
+	border-bottom-color:gray;
+	border-bottom-width:3px;
+	width:95%;
+	height:50px;
+	background:transparent;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size:30px;
+	color:#4CAF50;
+}
+#logo img {
+	width:40px; height:40px;
+	vertical-align:middle;
+}
+
+#info{
+	border-style: dashed; border-color: gray; border-width: 1px; height:70%; margin-top:10%;margin-left:5%; margin-right:5%;
+	background-color:rgb(236,238,244);
+}
+
+p.infotext {
+	line-height:20px;margin:10px 10px; color:#787878;
+}
+ul.infotext {
+	color:#787878;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px;
+    cursor: pointer;
+	width: 10%;
+	height: 30px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+.button:hover {
+    background-color: rgb(240,255,231);
+	color: black;
+}
+.button1 {
+	width: 30%;
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-right: 5px;
+	color: #4CAF50;
+	background-color: white;
+}
+
+#legend { font-family:Arial,sans-serif; background:#fff; border:2px solid #000; width: 8%; }
+#legend h3 { margin-top:0; color:black; }
+#legend img { vertical-align:middle; }
+
+#schoolinfo {vertical-align:middle; width: 40px; height: 40px;}
+#shoppinginfo {vertical-align:middle; width: 40px; height: 40px;}
+
+#alink:link {
+    color: white;
+    background-color: transparent;
+}
+#alink:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+#alink:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+footer {
+	background-color:black; color:white; font-size:14px;
+}
+#timer {
+	background-color:gray; width:150px; margin-top:40px;font-size:20px;
+}
